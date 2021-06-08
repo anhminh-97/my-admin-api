@@ -1,0 +1,311 @@
+{
+  "categories": [
+    {
+      "id": "82b54bb1-56e1-4af6-8270-4650ece433f4",
+      "name": "Shoes",
+      "createdAt": 1623140530331,
+      "updateAt": 1623140530331
+    },
+    {
+      "id": "6b83c999-1e7a-4494-93d5-f18ba733c249",
+      "name": "Jewelery",
+      "createdAt": 1623140530331,
+      "updateAt": 1623140530331
+    },
+    {
+      "id": "b4c91cba-5e3a-4c83-beae-86dcfde81449",
+      "name": "Books",
+      "createdAt": 1623140530331,
+      "updateAt": 1623140530331
+    },
+    {
+      "id": "bb834601-23c1-4e2e-8521-e49e3ee4a3f7",
+      "name": "Automotive",
+      "createdAt": 1623140530331,
+      "updateAt": 1623140530331
+    },
+    {
+      "id": "2b1d8149-906c-4183-8420-15467bdbd8f6",
+      "name": "Automotive",
+      "createdAt": 1623140530331,
+      "updateAt": 1623140530331
+    }
+  ],
+  "products": [
+    {
+      "categoryId": "82b54bb1-56e1-4af6-8270-4650ece433f4",
+      "id": "71e828e6-3eeb-4c29-aa10-6d77fb3b70d2",
+      "name": "Unbranded Concrete Chips",
+      "color": "gold",
+      "price": 529,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1623140530331,
+      "updateAt": 1623140530331,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "82b54bb1-56e1-4af6-8270-4650ece433f4",
+      "id": "a2a1f28b-2f51-4fca-aeaa-42668a4d8d54",
+      "name": "Handmade Metal Tuna",
+      "color": "turquoise",
+      "price": 443,
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "createdAt": 1623140530331,
+      "updateAt": 1623140530331,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "82b54bb1-56e1-4af6-8270-4650ece433f4",
+      "id": "50a33dc4-1c00-4686-a6c2-e56eb2761f33",
+      "name": "Unbranded Wooden Soap",
+      "color": "gold",
+      "price": 129,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1623140530331,
+      "updateAt": 1623140530331,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "82b54bb1-56e1-4af6-8270-4650ece433f4",
+      "id": "fdd19482-4316-4dcd-89fb-839566afb0a3",
+      "name": "Handmade Cotton Pants",
+      "color": "magenta",
+      "price": 499,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1623140530331,
+      "updateAt": 1623140530331,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "82b54bb1-56e1-4af6-8270-4650ece433f4",
+      "id": "317b1e79-5ce7-4f6e-a5f8-9ee537fb8315",
+      "name": "Small Metal Salad",
+      "color": "fuchsia",
+      "price": 590,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1623140530331,
+      "updateAt": 1623140530331,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "6b83c999-1e7a-4494-93d5-f18ba733c249",
+      "id": "a161fa69-9bc2-46b6-830b-b7363ed26478",
+      "name": "Small Rubber Chips",
+      "color": "ivory",
+      "price": 258,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1623140530332,
+      "updateAt": 1623140530332,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "6b83c999-1e7a-4494-93d5-f18ba733c249",
+      "id": "40c35240-4100-4ba6-8153-a6796e1cb67e",
+      "name": "Small Rubber Cheese",
+      "color": "black",
+      "price": 398,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1623140530332,
+      "updateAt": 1623140530332,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "6b83c999-1e7a-4494-93d5-f18ba733c249",
+      "id": "a14d171f-a1f9-436a-b440-687d86f0b099",
+      "name": "Handcrafted Granite Hat",
+      "color": "maroon",
+      "price": 606,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1623140530332,
+      "updateAt": 1623140530332,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "6b83c999-1e7a-4494-93d5-f18ba733c249",
+      "id": "a21ca45e-7aad-4cd1-aaa5-1742bcbbd77a",
+      "name": "Awesome Plastic Cheese",
+      "color": "fuchsia",
+      "price": 970,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1623140530332,
+      "updateAt": 1623140530332,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "6b83c999-1e7a-4494-93d5-f18ba733c249",
+      "id": "4fea0cc3-814a-4b16-af77-a7da9d7a2497",
+      "name": "Refined Soft Hat",
+      "color": "red",
+      "price": 266,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1623140530332,
+      "updateAt": 1623140530332,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b4c91cba-5e3a-4c83-beae-86dcfde81449",
+      "id": "829d351e-07b5-4ba9-80e1-d5c0ac36e9ba",
+      "name": "Small Rubber Mouse",
+      "color": "tan",
+      "price": 561,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1623140530332,
+      "updateAt": 1623140530332,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b4c91cba-5e3a-4c83-beae-86dcfde81449",
+      "id": "589eb092-d34c-49bb-97c5-341e1e177fe3",
+      "name": "Generic Plastic Shoes",
+      "color": "fuchsia",
+      "price": 427,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createdAt": 1623140530332,
+      "updateAt": 1623140530332,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b4c91cba-5e3a-4c83-beae-86dcfde81449",
+      "id": "d2c2a824-2622-4d29-bbc5-7ae74738b85c",
+      "name": "Rustic Rubber Chips",
+      "color": "fuchsia",
+      "price": 9,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createdAt": 1623140530332,
+      "updateAt": 1623140530332,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b4c91cba-5e3a-4c83-beae-86dcfde81449",
+      "id": "601ba093-2c8c-454c-be75-369d87ad6b73",
+      "name": "Unbranded Cotton Mouse",
+      "color": "mint green",
+      "price": 136,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b4c91cba-5e3a-4c83-beae-86dcfde81449",
+      "id": "cf784bb1-f167-4f04-b50b-aaf6a716985b",
+      "name": "Fantastic Plastic Table",
+      "color": "indigo",
+      "price": 832,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "bb834601-23c1-4e2e-8521-e49e3ee4a3f7",
+      "id": "67ee315f-479f-4273-a86d-a67d54ffb2d6",
+      "name": "Refined Cotton Hat",
+      "color": "orange",
+      "price": 627,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "bb834601-23c1-4e2e-8521-e49e3ee4a3f7",
+      "id": "e73e2eec-1dad-4d5d-8f61-68f0ba7d172a",
+      "name": "Incredible Steel Bacon",
+      "color": "lavender",
+      "price": 731,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "bb834601-23c1-4e2e-8521-e49e3ee4a3f7",
+      "id": "d95d068c-19eb-4857-a7c7-b9352f711d8f",
+      "name": "Handcrafted Concrete Towels",
+      "color": "black",
+      "price": 764,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "bb834601-23c1-4e2e-8521-e49e3ee4a3f7",
+      "id": "f48a913e-4c09-4b27-92a6-cc34a2b50e8a",
+      "name": "Generic Concrete Pants",
+      "color": "mint green",
+      "price": 161,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "bb834601-23c1-4e2e-8521-e49e3ee4a3f7",
+      "id": "6cb2e5bd-bbd1-4918-a30e-2db0c83cf54c",
+      "name": "Ergonomic Metal Table",
+      "color": "magenta",
+      "price": 893,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2b1d8149-906c-4183-8420-15467bdbd8f6",
+      "id": "7210f2f8-a979-43d6-983f-dc2d798a414b",
+      "name": "Small Soft Fish",
+      "color": "violet",
+      "price": 382,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2b1d8149-906c-4183-8420-15467bdbd8f6",
+      "id": "f03749e9-e44c-4690-aa55-3b59bae1ecdf",
+      "name": "Handcrafted Concrete Hat",
+      "color": "yellow",
+      "price": 450,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2b1d8149-906c-4183-8420-15467bdbd8f6",
+      "id": "cbae4e45-8fb5-4c53-ad8e-ed98d6922f4c",
+      "name": "Licensed Plastic Shirt",
+      "color": "gold",
+      "price": 904,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2b1d8149-906c-4183-8420-15467bdbd8f6",
+      "id": "34790612-2765-44ab-ba58-fb96ff2ddedb",
+      "name": "Gorgeous Granite Bacon",
+      "color": "teal",
+      "price": 622,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "2b1d8149-906c-4183-8420-15467bdbd8f6",
+      "id": "cab8fedf-8e32-440e-baf7-34b00f12d294",
+      "name": "Handcrafted Granite Chair",
+      "color": "gold",
+      "price": 348,
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "createdAt": 1623140530333,
+      "updateAt": 1623140530333,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    }
+  ]
+}
