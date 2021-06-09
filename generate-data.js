@@ -49,7 +49,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
 
 (() => {
   // Random data
-  const categoryList = randomCategoryList(5);
+  const categoryList = randomCategoryList(15);
   const productList = randomProductList(categoryList, 5);
 
   // prepare db object

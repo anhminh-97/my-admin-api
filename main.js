@@ -37,7 +37,7 @@ router.render = (req, res) => {
       data: res.locals.data,
       pagination: {
         _page: Number.parseInt(queryParams._page) || 1,
-        _limit: Number.parseInt(queryParams._limit) || 10,
+        _limit: Number.parseInt(queryParams._limit) || 12,
         _totalRows: Number.parseInt(totalCounterHeader),
       },
     };
