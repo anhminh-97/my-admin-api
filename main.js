@@ -32,13 +32,13 @@ router.render = (req, res) => {
 
   const totalCounterHeader = headers['x-total-count'];
   if (req.method === 'GET' && totalCounterHeader) {
-    const queryParams = queryString.parse(req._parseUrl.search);
+    const queryParams = queryString.parse(req._parsedOriginalUrl.query);
 
     const result = {
       data: res.locals.data,
       pagination: {
         _page: Number.parseInt(queryParams._page) || 1,
-        _limit: Number.parseInt(queryParams._limit) || 12,
+        _limit: Number.parseInt(queryParams._limit) || 10,
         _totalRows: Number.parseInt(totalCounterHeader),
       },
     };
