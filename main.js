@@ -32,7 +32,7 @@ router.render = (req, res) => {
 
   const totalCounterHeader = headers['x-total-count'];
   if (req.method === 'GET' && totalCounterHeader) {
-    const queryParams = queryString.parse(req._parseUrl.query);
+    const queryParams = queryString.parse(req._parseUrl.search);
 
     const result = {
       data: res.locals.data,
