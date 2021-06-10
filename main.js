@@ -28,23 +28,23 @@ server.use((req, res, next) => {
 
 // Custom output for list with pagination
 router.render = (req, res) => {
-  // const headers = res.getHeaders();
+  const headers = res.getHeaders();
 
-  // const totalCounterHeader = headers['x-total-count'];
-  // if (req.method === 'GET' && totalCounterHeader) {
-  //   console.log(`req`, req)
-  //   const queryParams = queryString.parse(req._parsedOriginalUrl.query);
+  const totalCounterHeader = headers['x-total-count'];
+  if (req.method === 'GET' && totalCounterHeader) {
+    console.log(`req`, req)
+    const queryParams = queryString.parse(req._parsedOriginalUrl.query);
 
-  //   const result = {
-  //     data: res.locals.data,
-  //     pagination: {
-  //       _page: Number.parseInt(queryParams._page) || 1,
-  //       _limit: Number.parseInt(queryParams._limit) || 10,
-  //       _totalRows: Number.parseInt(totalCounterHeader),
-  //     },
-  //   };
-  //   return res.jsonp(result);
-  // }
+    const result = {
+      data: res.locals.data,
+      pagination: {
+        _page: Number.parseInt(queryParams._page) || 1,
+        _limit: Number.parseInt(queryParams._limit) || 10,
+        _totalRows: Number.parseInt(totalCounterHeader),
+      },
+    };
+    return res.jsonp(result);
+  }
   res.jsonp(res.locals.data);
 };
 
