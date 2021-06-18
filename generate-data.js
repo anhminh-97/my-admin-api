@@ -16,7 +16,7 @@ const randomCategoryList = (n) => {
       name: faker.commerce.department(),
       createdAt: Date.now(),
       updateAt: Date.now(),
-      active: true,
+      status: true,
     };
 
     categoryList.push(category);
@@ -39,7 +39,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
         description: faker.commerce.productDescription(),
         createdAt: Date.now(),
         updateAt: Date.now(),
-        active: true,
+        status: true,
         thumbnailUrl: faker.image.imageUrl(400, 400),
       };
 
