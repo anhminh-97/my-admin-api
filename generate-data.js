@@ -15,7 +15,7 @@ const randomCategoryList = (n) => {
       id: faker.datatype.uuid(),
       name: faker.commerce.department(),
       createdAt: Date.now(),
-      updateAt: Date.now(),
+      updatedAt: Date.now(),
       status: true,
     };
 
@@ -31,16 +31,33 @@ const randomProductList = (categoryList, numberOfProducts) => {
   for (const category of categoryList) {
     Array.from(new Array(numberOfProducts)).forEach(() => {
       const product = {
-        categoryId: category.id,
         id: faker.datatype.uuid(),
         name: faker.commerce.productName(),
-        color: faker.commerce.color(),
-        price: Number.parseFloat(faker.commerce.price()),
+        originalPrice: Number.parseFloat(faker.commerce.price()),
+        salePrice: Number.parseFloat(faker.commerce.price()),
+        attributes: [
+          {
+            id: 1,
+            name: 'color',
+            variations: false,
+            options: [faker.commerce.color()],
+          },
+          { id: 2, name: 'size', variations: false, options: [] },
+        ],
+        variations: [],
+        type: 'simple',
         description: faker.commerce.productDescription(),
+        categories: [{ id: category.id, name: category.name }],
         createdAt: Date.now(),
-        updateAt: Date.now(),
+        updatedAt: Date.now(),
         status: true,
-        thumbnailUrl: faker.image.imageUrl(400, 400),
+        productImage: faker.image.imageUrl(400, 400),
+        productGallery: [
+          faker.image.imageUrl(400, 400),
+          faker.image.imageUrl(400, 400),
+          faker.image.imageUrl(400, 400),
+          faker.image.imageUrl(400, 400),
+        ],
       };
 
       productList.push(product);

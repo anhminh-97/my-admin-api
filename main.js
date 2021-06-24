@@ -18,7 +18,7 @@ server.use(jsonServer.bodyParser);
 server.use((req, res, next) => {
   if (req.method === 'POST') {
     req.body.createdAt = Date.now();
-    req.body.updateAt = Date.now();
+    req.body.updatedAt = Date.now();
   } else if (req.method === 'PATCH') {
     req.body.updatedAt = Date.now();
   }
@@ -51,7 +51,7 @@ router.render = (req, res) => {
 // Use default router
 server.use(router);
 // start server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 server.listen(PORT, () => {
   console.log('JSON Server is running');
 });
