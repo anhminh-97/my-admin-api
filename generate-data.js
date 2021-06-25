@@ -52,12 +52,12 @@ const randomProductList = (categoryList, numberOfProducts) => {
         updatedAt: Date.now(),
         status: true,
         quantity: Number.parseFloat(faker.commerce.price()),
-        productImage: faker.image.avatar(),
+        productImage: faker.image.image(),
         productGallery: [
-          faker.image.imageUrl(400, 400),
-          faker.image.imageUrl(400, 400),
-          faker.image.imageUrl(400, 400),
-          faker.image.imageUrl(400, 400),
+          faker.image.animals(400, 400),
+          faker.image.food(400, 400),
+          faker.image.fashion(400, 400),
+          faker.image.nature(400, 400),
         ],
       };
 
