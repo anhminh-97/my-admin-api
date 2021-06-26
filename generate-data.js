@@ -47,6 +47,8 @@ const randomProductList = (categoryList, numberOfProducts) => {
         variations: [],
         type: 'simple',
         description: faker.commerce.productDescription(),
+        shortDescription: faker.commerce.productDescription(),
+        author: faker.internet.email(),
         categories: [{ id: category.id, name: category.name }],
         createdAt: Date.now(),
         updatedAt: Date.now(),
