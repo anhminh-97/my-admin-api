@@ -35,15 +35,8 @@ const randomProductList = (categoryList, numberOfProducts) => {
         name: faker.commerce.productName(),
         originalPrice: faker.datatype.number(),
         salePrice: faker.datatype.number(),
-        attributes: [
-          {
-            id: 1,
-            name: 'color',
-            variations: false,
-            options: [faker.commerce.color()],
-          },
-          { id: 2, name: 'size', variations: false, options: [] },
-        ],
+        color: [faker.commerce.color()],
+        size: [],
         variations: [],
         type: 'simple',
         description: faker.commerce.productDescription(),
