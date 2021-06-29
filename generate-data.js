@@ -1,7 +1,5 @@
 const faker = require('faker');
 const fs = require('fs');
-var base64 = require('base-64');
-var utf8 = require('utf8');
 
 // Set locale to use Vietnamese
 faker.locale = 'vi';
@@ -49,11 +47,8 @@ const randomProductList = (categoryList, numberOfProducts) => {
         updatedAt: Date.now(),
         status: true,
         quantity: Number.parseFloat(faker.commerce.price()),
-        productImage: `data:image/jpeg;base64,${base64.encode(utf8.encode(faker.image.animals()))}`,
-        productGallery: [
-          `data:image/jpeg;base64,${base64.encode(utf8.encode(faker.image.animals()))}`,
-          `data:image/jpeg;base64,${base64.encode(utf8.encode(faker.image.animals()))}`,
-        ],
+        productImage: faker.image.animals(),
+        productGallery: [faker.image.animals(), faker.image.animals()],
       };
 
       productList.push(product);
