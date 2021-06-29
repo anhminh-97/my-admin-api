@@ -49,10 +49,10 @@ const randomProductList = (categoryList, numberOfProducts) => {
         updatedAt: Date.now(),
         status: true,
         quantity: Number.parseFloat(faker.commerce.price()),
-        productImage: base64.encode(utf8.encode(faker.image.animals())),
+        productImage: `data:image/jpeg;base64,${base64.encode(utf8.encode(faker.image.animals()))}`,
         productGallery: [
-          base64.encode(utf8.encode(faker.image.food())),
-          base64.encode(utf8.encode(faker.image.food())),
+          `data:image/jpeg;base64,${base64.encode(utf8.encode(faker.image.animals()))}`,
+          `data:image/jpeg;base64,${base64.encode(utf8.encode(faker.image.animals()))}`,
         ],
       };
 
