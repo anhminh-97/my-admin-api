@@ -3,6 +3,7 @@ const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
+const { v4: uuidv4 } = require('uuid');
 
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares);
@@ -19,6 +20,7 @@ server.use((req, res, next) => {
   if (req.method === 'POST') {
     req.body.createdAt = Date.now();
     req.body.updatedAt = Date.now();
+    req.body.id = uuidv4();
   } else if (req.method === 'PATCH') {
     req.body.updatedAt = Date.now();
   }
@@ -32,7 +34,7 @@ router.render = (req, res) => {
 
   const totalCounterHeader = headers['x-total-count'];
   if (req.method === 'GET' && totalCounterHeader) {
-    console.log(`req`, req)
+    console.log(`req`, req);
     const queryParams = queryString.parse(req._parsedOriginalUrl.query);
 
     const result = {
