@@ -48,7 +48,10 @@ const randomProductList = (categoryList, numberOfProducts) => {
         status: true,
         quantity: Number.parseFloat(faker.commerce.price()),
         productImage: faker.image.animals(),
-        productGallery: [faker.image.animals(), faker.image.animals()],
+        productGallery: [
+          { id: faker.datatype.uuid(), url: faker.image.food() },
+          { id: faker.datatype.uuid(), url: faker.image.natural() },
+        ],
       };
 
       productList.push(product);
