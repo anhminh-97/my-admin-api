@@ -50,7 +50,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
         productImage: faker.image.animals(),
         productGallery: [
           { id: faker.datatype.uuid(), url: faker.image.food() },
-          { id: faker.datatype.uuid(), url: faker.image.natural() },
+          { id: faker.datatype.uuid(), url: faker.image.fashion() },
         ],
       };
 
